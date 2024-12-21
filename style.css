@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+body {
+    background-color: #9BC53D;
+    
+}
+
+/*Header Styles*/
+
+header {
+    background-color: #3a4b13;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+/*Winner Message Styles*/
+
+#showWinner {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    margin-top: 35vmin;
+    margin-bottom: 45vmin;
+}
+
+#msg {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: rgb(243, 232, 152);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#newGame {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 0.5rem;
+    background-color: #C3423F;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+
+}
+
+#newGame:hover {
+    background-color: #471817;
+    transition: background-color 0.5s ease;
+}
+
+/*Game Conatiner*/
+
+#gameContainer {
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.box {
+    background-color: rgb(243, 232, 152);
+    color: #C3423F;
+    width: 17vh;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+/*Reset Styles*/
+
+#resetConatiner {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+
+}
+
+#reset {
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: #C3423F;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: #471817;
+    transition: background-color 0.5s ease;
+}
+
