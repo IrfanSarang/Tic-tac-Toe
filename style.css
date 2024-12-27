@@ -16,6 +16,7 @@ body {
 header {
     background-color: #3a4b13;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -25,14 +26,15 @@ header h1 {
 /*Winner Message Styles*/
 
 #showWinner {
-    height: auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: none;
-    margin-top: 35vmin;
-    margin-bottom: 45vmin;
+    margin-top: 12rem;
+    margin-bottom: 20rem;
+
 }
 
 #msg {
@@ -117,3 +119,25 @@ header h1 {
     transition: background-color 0.5s ease;
 }
 
+@media (max-width: 455px) {
+    #gameContainer {
+        width: 40vh;
+        height: 40vh;
+    }
+
+    .box {
+        width: 10vh;
+        height: 12vh;
+    }
+
+    #reset {
+        width: 7rem;
+        height: 5rem;
+    }
+
+    #showWinner {
+        margin-top: 16rem;
+        margin-bottom: 30rem;
+    }
+
+}
